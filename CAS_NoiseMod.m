@@ -31,9 +31,9 @@ rng(3, 'twister');                  % Fixed seed for repeatability
 
 N        = 120;                     % Samples per bit (paper uses N=120)
 P        = 1;                       % Average transmit power
-nbits_F4 = 1e5;                     % Bits for Fig. 4(a) style curves
-nbits_F5 = 1e5;                     % Bits for Fig. 4(c) comparison plot
-nbits_3D = 5e4;                     % Bits for 3D surface plot (reduced for speed)
+nbits_F4 = 1e6;                     % Bits for Fig. 4(a) style curves
+nbits_F5 = 1e6;                     % Bits for Fig. 4(c) comparison plot
+nbits_3D = 5e5;                     % Bits for 3D surface plot (reduced for speed)
 
 delta_dB_F4 = -10:1:40;             % delta(dB) sweep for Fig. 4(a)
 delta_F4    = 10.^(delta_dB_F4/10);
