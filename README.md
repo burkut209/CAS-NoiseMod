@@ -156,3 +156,19 @@ The script generates three paper-aligned result sets:
 1) **Bob BER vs \( \delta \)** for several \( \alpha \) values (simulation + theory)  
 2) **3D surfaces** of Bob and Eve BER across \( (\alpha,\delta) \) (shows the security gap region)  
 3) **2D comparison** at a fixed \( \alpha \): CAS-NoiseMod vs conventional NoiseMod (Bob and Eve)
+
+
+---
+
+## License
+
+Copyright (c) 2026 Serdar Prencuva. All rights reserved.
+
+This repository is provided under a **Proprietary Research-Only License**:
+- You may **view and run** the code for **personal, academic, and non-commercial research** purposes.
+- You may **not** redistribute the code (modified or unmodified), publish it as part of another repository, or include it in datasets/packages without written permission.
+- You may **not** use the code (or derivatives) for **commercial** purposes without written permission.
+- If you use ideas/results, you must **cite the article**: *Channel-Adaptive Secure Noise Modulation for IoT Networks* (Prencuva, Tek, Basar), IEEE Communications Letters.
+
+See the `LICENSE` file for the full terms.
+
