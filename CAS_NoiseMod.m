@@ -41,7 +41,7 @@ delta_F4    = 10.^(delta_dB_F4/10);
 alpha_list_F4 = [1, 1.5, 3, 10];    % Fig. 4(a) alpha set
 
 % Fig. 4(c) parameters (2D comparison plot)
-delta_dB_F5 = -10:1:40;             % delta(dB) sweep for Fig. 4(c)
+delta_dB_F5 = -10:1:45;             % delta(dB) sweep for Fig. 4(c)
 delta_F5    = 10.^(delta_dB_F5/10);
 alpha_F5    = 3.5;                  % Fixed alpha for Fig. 4(c)
 
@@ -491,3 +491,4 @@ function BEP = BEP_Bob_CAS_Theory(delta_dB_vec, N, alpha, P)
             'RelTol', 1e-7, 'AbsTol', 1e-12, 'ArrayValued', true);
     end
 end
+
